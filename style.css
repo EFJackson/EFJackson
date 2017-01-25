@@ -7,7 +7,7 @@ p { font-size: 100%; }
 h1 { font-size: 125%; }
 
 #wrapper {
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
 }
 
@@ -36,7 +36,7 @@ li a{
 	padding-bottom: 2px;
 
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 225%;
 	text-decoration: none; /* no underline */
 	color: black;
 
@@ -51,7 +51,39 @@ li a.current{
 	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIElEQVQYV2P8z/D9PwMDAwMjAycjmMYQAImCAEICTQAArQwL79oYbKYAAAAASUVORK5CYII=) repeat;
 }
 
+#photos {
+	width: 75%;
+	margin: auto;
+}
+
+#photos img {
+	display: block;
+
+	max-width: 100%;
+	margin: auto;
+}
+
+#photos p {
+	display: table;
+
+	max-height: 80%;
+	max-width: 100%;
+
+	width: auto;
+
+	margin: 1% auto 1% auto;
+
+
+
+	color: #939393;
+	font-style: italic;
+}
+
 @media only screen and (max-device-width: 768px) {
+
+	p { font-size: 150%; }
+	h1 { font-size: 175%; }
+	li a { font-size: 300%; }
 
 	#wrapper {
 		width: 90%;
