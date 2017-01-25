@@ -61,7 +61,11 @@ li a.current{
 
 	max-width: 100%;
 	margin: auto;
+
+	opacity: 0;
 }
+
+#photos img.loaded { opacity: 1; }
 
 #photos p {
 	display: table;

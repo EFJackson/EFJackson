@@ -32,24 +32,33 @@
 		<div id="photos">
 			<h1>Photography - Olympus OM1</h1>
 			<p>
-				<img src="imgs/photos/web_Forest.jpg">
+				<img src="imgs/photos/web_Forest.jpg" onload="imgLoaded(this)">
 				forest - mt fuji, 2016
 			</p>
 			<p>
-				<img src="imgs/photos/web_Coastline.jpg">
+				<img src="imgs/photos/web_Coastline.jpg" onload="imgLoaded(this)">
 				coastline - hokkaido, 2016
 			</p>
 			<p>
-				<img src="imgs/photos/web_Nagasaki.jpg">
+				<img src="imgs/photos/web_Nagasaki.jpg" onload="imgLoaded(this)">
 				crossing - nagasaki, 2016
 			</p>
 			<hr>
 			<h1>Graphic Design - Photoshop, various</h1>
 			<p>
-				<img src="imgs/graphics/web_fires.jpg">
+				<img src="imgs/graphics/web_fires.jpg" onload="imgLoaded(this)">
 				home fires poster - 2015
 			</p>
 		</div>
 	</div>
+
+	<script type="text/javascript">
+		function imgLoaded(img){
+		    var imgWrapper = img.parentNode;
+		 
+		    imgWrapper.className += imgWrapper.className ? ' loaded' : 'loaded';
+		};
+	</script>
+	
 </body>
 </html>
