@@ -81,10 +81,10 @@ li a.current{
 
 	opacity: 0;
 
-	-webkit-transition: opacity .5s;
-    -moz-transition: opacity .5s;
-    -ms-transition: opacity .5s;
-    transition: opacity .5s;
+	-webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    transition: opacity 1s;
 }
 
 #photos p.loaded {
