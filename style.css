@@ -61,18 +61,8 @@ li a.current{
 
 	max-width: 100%;
 	margin: auto;
-
-	opacity: 0;
-
-	-webkit-transition: opacity 150ms;
-    -moz-transition: opacity 150ms;
-    -ms-transition: opacity 150ms;
-    transition: opacity 150ms;
 }
 
-#photos img.loaded { 
-	opacity: 1; 
-}
 
 #photos p {
 	display: table;
@@ -86,6 +76,18 @@ li a.current{
 
 	color: #939393;
 	font-style: italic;
+
+
+	opacity: 0;
+
+	-webkit-transition: opacity 150ms;
+    -moz-transition: opacity 150ms;
+    -ms-transition: opacity 150ms;
+    transition: opacity 150ms;
+}
+
+#photos p.loaded {
+	opacity: 1;
 }
 
 @media only screen and (max-device-width: 768px) {
